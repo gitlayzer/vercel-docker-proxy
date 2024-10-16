@@ -1,12 +1,12 @@
 const routes: { [key: string]: string } = {
   "vercel-docker-proxy.vercel.app": "https://registry-1.docker.io",
-  "docker-vercel.libcuda.so": "https://registry-1.docker.io",
-  "quay-vercel.libcuda.so": "https://quay.io",
-  "gcr-vercel.libcuda.so": "https://gcr.io",
-  "k8s-gcr-vercel.libcuda.so": "https://k8s.gcr.io",
-  "k8s-vercel.libcuda.so": "https://registry.k8s.io",
-  "ghcr-vercel.libcuda.so": "https://ghcr.io",
-  "cloudsmith-vercel.libcuda.so": "https://docker.cloudsmith.io",
+  "docker.devops-engineer.com.cn": "https://registry-1.docker.io",
+  "quay.devops-engineer.com.cn": "https://quay.io",
+  "gcr.devops-engineer.com.cn": "https://gcr.io",
+  "k8s-gcr.devops-engineer.com.cn": "https://k8s.gcr.io",
+  "k8s.devops-engineer.com.cn": "https://registry.k8s.io",
+  "ghcr.devops-engineer.com.cn": "https://ghcr.io",
+  "cloudsmith.devops-engineer.com.cn": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host: string) {
