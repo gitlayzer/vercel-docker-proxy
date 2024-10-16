@@ -1,5 +1,5 @@
 const routes: { [key: string]: string } = {
-  "vercel-docker-proxy.vercel.app": "https://registry-1.docker.io",
+  "vercel-docker-proxy-tan.vercel.app": "https://registry-1.docker.io",
   "docker.devops-engineer.com.cn": "https://registry-1.docker.io",
   "quay.devops-engineer.com.cn": "https://quay.io",
   "gcr.devops-engineer.com.cn": "https://gcr.io",
